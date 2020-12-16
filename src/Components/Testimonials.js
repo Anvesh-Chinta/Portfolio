@@ -23,6 +23,20 @@ class Testimonials extends Component {
                <h1><span>Client Testimonials</span></h1>
             </div>
 
+            <div class="carousel">
+               <div class="carousel-item">
+                  <img src="">
+                     <h3></h3>
+                     <p></p>
+                  </img>
+               </div>
+            </div>
+            
+
+            $(document).ready(function(){
+               $('.carousel').carousel();
+            });
+            
             <div className="ten columns flex-container">
                   <ul className="slides">
                       {testimonials}
